@@ -5,6 +5,7 @@
   angular.module("firebase.config", []);
   angular.module("firebase.auth", ["firebase.utils"]);
   angular.module("firebase.database", ["firebase.utils"]);
+  angular.module("firebase.firestore", ["firebase.utils"]);
   angular.module("firebase.storage", ["firebase.utils"]);
 
   // Define the `firebase` module under which all AngularFire
@@ -14,6 +15,7 @@
     "firebase.config",
     "firebase.auth",
     "firebase.database",
+    "firebase.firestore",
     "firebase.storage"
   ])
     //TODO: use $window
